@@ -39,7 +39,7 @@
       "type": "string",
       "defaultValue": "Standard_D2",
       "metadata": {
-        "description": "Size of the VM. Looks like Basic_A1, Standard_D2."
+        "description": "Size of the VM. Looks like Standard_D1, Standard_D2."
       }
     }
   },
