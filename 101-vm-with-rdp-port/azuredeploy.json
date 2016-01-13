@@ -33,6 +33,13 @@
       "defaultValue": 50001,
       "metadata": {
         "description": "Public port number for RDP"
+      },
+      "vmSize": {
+        "type": "string",
+        "defaultValue": "Standard_D2",
+        "metadata": {
+          "description": "Size of the VM. Looks like Basic_A1, Standard_D2."
+        }
       }
     }
   },
@@ -176,7 +183,7 @@
       ],
       "properties": {
         "hardwareProfile": {
-          "vmSize": "Standard_D2"
+          "vmSize": "[parameters('vmSize')]"
         },
         "osProfile": {
           "computerName": "[parameters('vmName')]",
