@@ -16,6 +16,9 @@
     },
     "rdpPort": {
       "value": 50001
+    },
+    "vmSize": {
+      "value": "Standard_D2"
     }
   }
 }
